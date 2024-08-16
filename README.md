@@ -103,6 +103,7 @@
     - 小店通转化数据 [ MerchantDeatailReport(clt *core.SDKClient, accessToken string, req *report.MerchantDetailReportRequest) (*report.MerchantDetailReportResponse, error) ]
     - 关键词报表 [ WordInfoReport(clt *core.SDKClient, accessToken string, req *report.WordInfoReportRequest) (*report.ReportResponse, error) ]
     - 搜索词报表 [ QueryWordReport(clt *core.SDKClient, accessToken string, req *report.QueryWordReportRequest) (*report.ReportResponse, error) ]
+    - 快小游ECPM报表 [ EcpmReport(clt *core.SDKClient, accessToken string, req *report.EcpmReportRequest) (*report.EcpmReportResponse, error) ]
 - 素材管理(api/file)
   - 图片素材
     - 上传图片v1接口 [ AdImageUploadV1(clt *core.SDKClient, accessToken string, req *file.AdImageUploadRequestV1) (*file.Image, error) ]
